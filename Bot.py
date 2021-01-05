@@ -1,9 +1,6 @@
 import time
 import pyautogui
 import webbrowser
-from PyQt5 import uic, QtWidgets
-from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox
-
 
 class bot:
     def __init__(self, resolution="1080"):
@@ -287,7 +284,7 @@ def menu():
 a = bot1()
 
 print('New version Detected\n'
-      'You want downlaod?')
+      'You want download?')
 print('1 = yes \n'
       '2 = No')
 download = int(input('Enter a option : '))
