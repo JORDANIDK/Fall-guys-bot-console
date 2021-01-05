@@ -1,5 +1,8 @@
 import time
 import pyautogui
+import webbrowser
+from PyQt5 import uic, QtWidgets
+from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox
 
 
 class bot:
@@ -250,33 +253,45 @@ def checkresolutionEvent():
         return bot(resolution="720/Event")
 
 
+def menu():
+    print("Welcome to Fall guys Bot")
+    print("         by jordan123pal")
+    print()
+    print("1 = Stable Mode, 1080 and 720 work fine ")
+    print("2 = Beta Mode, other resolutions maybe with errors")
+    print("3 = Event Mode 1080 and 720")
+
+    menu = int(input("enter you option : "))
+
+    if menu == 1:
+        print("starting...")
+        check = checkresolution()
+        if check is not None:
+            check.lobby()
+
+    if menu == 2:
+        print("starting minimeze console pls...")
+        time.sleep(3)
+        a.lobby()
+
+    if menu == 3:
+        print("starting minimeze console pls...")
+        check1 = checkresolutionEvent()
+        time.sleep(3)
+        if check1 is not None:
+            check1.lobby()
+    else:
+        print("Good Bye")
+
+
 a = bot1()
 
-print("Welcome to Fall guys Bot")
-print("         by jordan123pal")
-print()
-print("1 = Stable Mode, 1080 and 720 work fine ")
-print("2 = Beta Mode, other resolutions maybe with errors")
-print("3 = Event Mode 1080 and 720")
-
-menu = int(input("enter you option : "))
-
-if menu == 1:
-    print("starting...")
-    check = checkresolution()
-    if check is not None:
-        check.lobby()
-
-if menu == 2:
-    print("starting minimeze console pls...")
-    time.sleep(3)
-    a.lobby()
-
-if menu == 3:
-    print("starting minimeze console pls...")
-    check1 = checkresolutionEvent()
-    time.sleep(3)
-    if check1 is not None:
-        check1.lobby()
+print('New version Detected\n'
+      'You want downlaod?')
+print('1 = yes \n'
+      '2 = No')
+download = int(input('Enter a option : '))
+if download == 1:
+    webbrowser.open('https://github.com/JORDANIDK/Fall-Guys-Bot-GUI-SEASON-3')
 else:
-    print("Good Bye")
+    menu()
