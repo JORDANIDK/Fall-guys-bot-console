@@ -1,4 +1,4 @@
-# Fall guys bot SEASON 2
+# Fall guys bot SEASON 2 ---> season 3 update https://github.com/JORDANIDK/Fall-Guys-Bot-GUI-SEASON-3
 
 # Instructions
 
