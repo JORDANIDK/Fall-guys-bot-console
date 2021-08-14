@@ -1,4 +1,2 @@
-# Fall guys Bot --- > season 5 update https://github.com/JORDANIDK/Fall-Guys-Bot-GUI-SEASON-3
-
-#OUTDATE
+# Fall guys Bot --- > Season 5 Update https://github.com/JORDANIDK/Fall-Guys-Bot-GUI-SEASON-3
 
