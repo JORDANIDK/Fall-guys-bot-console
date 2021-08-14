@@ -289,6 +289,6 @@ print('1 = yes \n'
       '2 = No')
 download = int(input('Enter a option : '))
 if download == 1:
-    webbrowser.open('https://github.com/JORDANIDK/Fall-Guys-Bot-GUI-SEASON-3')
+    webbrowser.open('https://github.com/JORDANIDK/Fall-Bot-S5')
 else:
     menu()
