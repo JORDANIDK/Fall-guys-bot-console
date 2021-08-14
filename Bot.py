@@ -1,6 +1,5 @@
 import time
 import pyautogui
-import webbrowser
 
 class bot:
     def __init__(self, resolution="1080"):
@@ -283,12 +282,3 @@ def menu():
 
 a = bot1()
 
-print('New version Detected\n'
-      'You want download?')
-print('1 = yes \n'
-      '2 = No')
-download = int(input('Enter a option : '))
-if download == 1:
-    webbrowser.open('https://github.com/JORDANIDK/Fall-Bot-S5')
-else:
-    menu()
